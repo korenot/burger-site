@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <script src="/scripts/signup.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <form id="signupForm" name="signupForm" method="post" action="/signup" onsubmit="return registerFormCheck()">
+        <input id="fName" class="upInp" name="fName" placeholder="First name" type="text"><label for="fName" id="fNameLabel" class="label"></label><br>
+        <input id="lName" class="upInp" name="lName" placeholder="Last name" type="text"><label for="lName" id="lNameLabel" class="label"></label><br>
+        <input id="emailAdd" class="upInp" name="emailAdd" placeholder="Email adress" type="email" required><label for="emailAdd" id="emailAddLabel" class="label"></label><br>
+        <input id="pass" class="upInp" name="pass" placeholder="Enter password" type="password" required><label for="pass" id="passLabel" class="label"> </label><br>
+        <input id="confirmPass" class="upInp" name="confirmPass" placeholder="Confirm password" type="password" required><label for="confirmPass" id="confirmPassLabel" class="label"></label><br>
+        <input id="sub" type="submit">
+    </form>
+</body>
+
+</html>
